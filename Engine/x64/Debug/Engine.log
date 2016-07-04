@@ -1,0 +1,3 @@
+﻿  Camera.cpp
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  Engine.vcxproj -> C:\Users\ericc\DX12-Engine\x64\Debug\Engine.exe
