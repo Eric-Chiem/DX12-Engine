@@ -8,6 +8,13 @@
 using namespace DirectX;
 using namespace SimpleMath;
 
+#define PI 3.14159265
 
+
+namespace DX12Engine {
+	
+	Vector4 pointAt(float horizontalAngle, float verticalAngle);
+
+}
 
 #endif

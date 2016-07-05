@@ -156,8 +156,9 @@
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="math.cpp" />
     <ClCompile Include="text.cpp" />
     <ClCompile Include="wic.cpp" />
   </ItemGroup>

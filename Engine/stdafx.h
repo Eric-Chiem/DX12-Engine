@@ -20,6 +20,7 @@
 #define SAFE_RELEASE(p) { if ( (p) ) { (p)->Release(); (p) = 0; } }
 
 using namespace DirectX; // we will be using the directxmath library
+using namespace DX12Engine;
 
 // Handle to the window
 HWND hwnd = NULL;
@@ -212,3 +213,11 @@ Timer timer;
 void RenderText(Font font, std::wstring text, XMFLOAT2 pos, XMFLOAT2 scale = XMFLOAT2(1.0f, 1.0f), XMFLOAT2 padding = XMFLOAT2(0.5f, 0.0f), XMFLOAT4 color = XMFLOAT4(1.0f, 1.0f, 1.0f, 1.0f));
 
 //-- Eric Code --//
+
+#define MAX_KEYS 65535
+bool keyDown[MAX_KEYS];
+
+RECT rcClip;           // new area for ClipCursor
+RECT rcOldClip;        // previous area for ClipCursor
+
+bool Tracking = true;

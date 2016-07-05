@@ -1,3 +1,50 @@
-﻿  Camera.cpp
-main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+﻿  main.cpp
+c:\users\ericc\dx12-engine\engine\text.cpp(97): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(110): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(114): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(119): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(124): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(135): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(140): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(150): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(160): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(165): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(175): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(180): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(185): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(190): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(197): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(204): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(209): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(214): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(224): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(234): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(244): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\text.cpp(245): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\stdafx.h(192): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1137): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1138): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1077): warning C4101: 'vBufferUploadHeap': unreferenced local variable
+c:\users\ericc\dx12-engine\engine\main.cpp(1176): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1181): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1182): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1210): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1211): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(1212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+c:\users\ericc\dx12-engine\engine\wic.cpp(99): warning C4715: 'wic::GetDXGIFormatBitsPerPixel': not all control paths return a value
+  Compiling...
+  Camera.cpp
+c:\users\ericc\dx12-engine\engine\camera.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\ericc\dx12-engine\engine\camera.cpp(45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\camera.cpp(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\camera.cpp(58): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\ericc\dx12-engine\engine\camera.cpp(59): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\ericc\dx12-engine\engine\camera.cpp(64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
   Engine.vcxproj -> C:\Users\ericc\DX12-Engine\x64\Debug\Engine.exe

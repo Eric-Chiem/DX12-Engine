@@ -8,45 +8,54 @@
 using namespace DirectX;
 using namespace SimpleMath;
 
-#define DEFAULT_CAMERA_MOVE_SPEED		5;
-#define DEFAULT_CAMERA_ROTATION_SPEED	1;
+#define DEFAULT_CAMERA_MOVE_SPEED		.005
+#define DEFAULT_CAMERA_ROTATION_SPEED	.01
 
-namespace DX12Engine{
+namespace DX12Engine {
 
-class Camera {
-private:
-	Matrix	mDefaultModelMatrix;
-	Matrix	mViewMatrix;
-	Matrix	mProjectionMatrix;
+	class Camera {
+	private:
+		Matrix	mDefaultModelMatrix;
+		Matrix	mViewMatrix;
+		Matrix	mProjectionMatrix;
 
-	Vector4	mCameraPosition;
-	Vector4	mCameraTarget;
-	Vector4	mCameraUp;
+		Vector4	mCameraPosition;
+		Vector4	mCameraAt;
+		Vector4	mCameraUp;
 
-	float	mCameraHorizontalAngle;
-	float	mCameraVerticalAngle;
+		float	mCameraHorizontalAngle;
+		float	mCameraVerticalAngle;
 
-	float	mCameraMoveSpeed;
-	float	mCameraRotateSpeed;
+		float	mCameraMoveSpeed;
+		float	mCameraRotateSpeed;
 
-	float	mCameraLocked;
+		float	mCameraLocked;
+		float	mDelta;
 
-public:
+	public:
 
-	Camera();
-	~Camera();
+		Camera();
+		~Camera();
+		
+		void Update(float delta);
 
-	void Update();
+		void moveForwards();
+		void moveBackwards();
+		void moveLeft();
+		void moveRight();
 
-	void calculateTarget();
-	void calculateViewMatrix();
+		void rotateHorizontal(int deltaX);
+		void rotateVertical(int deltaY);
 
-	void ViewMatrix(XMFLOAT4X4 newViewMatrix);
-	Matrix ViewMatrix();
-	void ProjectionMatrix(XMFLOAT4X4 newProjectionMatrix);
-	Matrix ProjectionMatrix();
+		void calculateTarget();
+		void calculateViewMatrix();
 
-};
+		void ViewMatrix(XMFLOAT4X4 newViewMatrix);
+		Matrix ViewMatrix();
+		void ProjectionMatrix(XMFLOAT4X4 newProjectionMatrix);
+		Matrix ProjectionMatrix();
+
+	};
 
 }
 #endif

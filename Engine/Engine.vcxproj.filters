@@ -16,6 +16,9 @@
     <Filter Include="Source Files\stream">
       <UniqueIdentifier>{4e97e270-3e19-4aa7-890f-102dd9136ae9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\calculations">
+      <UniqueIdentifier>{50cfef25-e9be-4537-933a-19382cbcbc7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="d3dx12.h">
@@ -32,9 +35,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="wic.cpp">
       <Filter>Source Files\stream</Filter>
     </ClCompile>
@@ -42,6 +42,12 @@
       <Filter>Source Files\stream</Filter>
     </ClCompile>
     <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Source Files\calculations</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
