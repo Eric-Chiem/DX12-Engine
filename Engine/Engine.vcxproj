@@ -150,10 +150,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ConstantBufferPerObject.h" />
     <ClInclude Include="d3dx12.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="math.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="text.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="wic.h" />
+    <ClInclude Include="window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
@@ -161,6 +167,7 @@
     <ClCompile Include="math.cpp" />
     <ClCompile Include="text.cpp" />
     <ClCompile Include="wic.cpp" />
+    <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="PixelShader.hlsl">

@@ -1,50 +1,133 @@
-﻿  main.cpp
-c:\users\ericc\dx12-engine\engine\text.cpp(97): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(110): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(114): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(119): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(124): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(135): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(140): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(150): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(160): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(165): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(175): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(180): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(185): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(190): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(197): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(204): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(209): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(214): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(224): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(234): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(244): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\text.cpp(245): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\stdafx.h(192): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1137): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1138): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1077): warning C4101: 'vBufferUploadHeap': unreferenced local variable
-c:\users\ericc\dx12-engine\engine\main.cpp(1176): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1181): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1182): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1210): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1211): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\main.cpp(1212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+﻿  window.cpp
+c:\users\ericc\dx12-engine\engine\window.cpp(93): error C2065: 'timer': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(93): error C2228: left of '.fps' must have class/struct/union
+  c:\users\ericc\dx12-engine\engine\window.cpp(93): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(93): error C2664: 'void DX12Engine::Window::RenderText(Font,std::wstring,DirectX::XMFLOAT2,DirectX::XMFLOAT2,DirectX::XMFLOAT2,DirectX::XMFLOAT4)': cannot convert argument 2 from 'DirectX::XMFLOAT2' to 'std::wstring'
+  c:\users\ericc\dx12-engine\engine\window.cpp(93): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\ericc\dx12-engine\engine\window.cpp(127): error C2065: 'WndProc': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(878): error C2065: 'cbPerObject': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(887): error C2065: 'cbPerObject': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(888): error C2065: 'cbPerObject': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1114): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\ericc\dx12-engine\engine\window.cpp(1115): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+c:\users\ericc\dx12-engine\engine\window.cpp(1132): error C2065: 'cube1Position': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1133): error C2065: 'cube1Position': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1136): error C2065: 'cube1RotMat': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1137): error C2065: 'cube1WorldMat': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1140): error C2065: 'cube2PositionOffset': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1141): error C2065: 'cube2PositionOffset': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1141): error C2065: 'cube1Position': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1145): error C2065: 'cube2RotMat': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1146): error C2065: 'cube2WorldMat': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1165): error C2065: 'Running': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1170): error C2065: 'keyDown': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1174): error C2065: 'keyDown': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1180): error C2065: 'Tracking': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1184): error C2065: 'Tracking': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1190): error C2065: 'Running': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1205): error C2065: 'frameBufferCount': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1207): error C2065: 'frameIndex': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1208): error C3861: 'WaitForPreviousFrame': identifier not found
+c:\users\ericc\dx12-engine\engine\window.cpp(1213): error C2065: 'swapChain': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1213): error C2227: left of '->GetFullscreenState' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1213): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1214): error C2065: 'swapChain': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1214): error C2227: left of '->SetFullscreenState' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1214): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1216): error C2065: 'device': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1216): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1216): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1217): error C2065: 'swapChain': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1217): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1217): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1218): error C2065: 'commandQueue': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1218): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1218): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1219): error C2065: 'rtvDescriptorHeap': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1219): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1219): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1220): error C2065: 'commandList': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1220): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1220): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1222): error C2065: 'frameBufferCount': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1224): error C2065: 'renderTargets': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1224): error C2227: left of '->Release' must point to class/struct/union/generic type
+c:\users\ericc\dx12-engine\engine\window.cpp(1225): error C2065: 'commandAllocator': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1225): error C2227: left of '->Release' must point to class/struct/union/generic type
+c:\users\ericc\dx12-engine\engine\window.cpp(1226): error C2065: 'fence': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1226): error C2227: left of '->Release' must point to class/struct/union/generic type
+c:\users\ericc\dx12-engine\engine\window.cpp(1229): error C2065: 'pipelineStateObject': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1229): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1229): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1230): error C2065: 'rootSignature': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1230): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1230): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1231): error C2065: 'vertexBuffer': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1231): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1231): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1232): error C2065: 'indexBuffer': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1232): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1232): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1234): error C2065: 'depthStencilBuffer': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1234): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1234): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1235): error C2065: 'dsDescriptorHeap': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1235): error C2227: left of '->Release' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\window.cpp(1235): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\window.cpp(1237): error C2065: 'frameBufferCount': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1239): error C2065: 'constantBufferUploadHeaps': undeclared identifier
+c:\users\ericc\dx12-engine\engine\window.cpp(1239): error C2227: left of '->Release' must point to class/struct/union/generic type
+c:\users\ericc\dx12-engine\engine\window.cpp(1244): error C2065: 'rcOldClip': undeclared identifier
+  main.cpp
+c:\users\ericc\dx12-engine\engine\timer.h(43): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(16): error C2065: 'FullScreen': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(16): error C3861: 'InitializeWindow': identifier not found
+c:\users\ericc\dx12-engine\engine\main.cpp(24): error C3861: 'InitD3D': identifier not found
+c:\users\ericc\dx12-engine\engine\main.cpp(39): error C2065: 'fenceEvent': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(52): error C2065: 'Running': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(81): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(105): error C2065: 'cbvGPUAddress': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(105): error C2065: 'frameIndex': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(110): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(111): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ericc\dx12-engine\engine\main.cpp(135): error C2065: 'cbvGPUAddress': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(135): error C2065: 'frameIndex': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(135): error C2065: 'ConstantBufferPerObjectAlignedSize': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(140): error C2065: 'keyDown': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(154): error C2065: 'Tracking': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(157): error C2065: 'rcClip': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(157): error C2228: left of '.left' must have class/struct/union
+  c:\users\ericc\dx12-engine\engine\main.cpp(157): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(157): error C2065: 'Width': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(158): error C2065: 'rcClip': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(158): error C2228: left of '.top' must have class/struct/union
+  c:\users\ericc\dx12-engine\engine\main.cpp(158): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(158): error C2065: 'Height': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(159): error C2065: 'rcClip': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(159): error C2228: left of '.left' must have class/struct/union
+  c:\users\ericc\dx12-engine\engine\main.cpp(159): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(159): error C2065: 'Width': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(159): error C2228: left of '.top' must have class/struct/union
+  c:\users\ericc\dx12-engine\engine\main.cpp(159): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(159): error C2065: 'Height': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(159): error C2660: 'SetCursorPos': function does not take 1 arguments
+c:\users\ericc\dx12-engine\engine\main.cpp(170): error C2065: 'commandList': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(173): error C2065: 'commandQueue': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(173): error C2227: left of '->ExecuteCommandLists' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\main.cpp(173): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(178): error C2065: 'commandQueue': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(178): error C2227: left of '->Signal' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\main.cpp(178): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(178): error C2065: 'fence': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(178): error C2065: 'frameIndex': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(178): error C2065: 'fenceValue': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(181): error C2065: 'Running': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(185): error C2065: 'swapChain': undeclared identifier
+c:\users\ericc\dx12-engine\engine\main.cpp(185): error C2227: left of '->Present' must point to class/struct/union/generic type
+  c:\users\ericc\dx12-engine\engine\main.cpp(185): note: type is 'unknown-type'
+c:\users\ericc\dx12-engine\engine\main.cpp(188): error C2065: 'Running': undeclared identifier
   Generating Code...
-c:\users\ericc\dx12-engine\engine\wic.cpp(99): warning C4715: 'wic::GetDXGIFormatBitsPerPixel': not all control paths return a value
-  Compiling...
-  Camera.cpp
-c:\users\ericc\dx12-engine\engine\camera.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\ericc\dx12-engine\engine\camera.cpp(45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\camera.cpp(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ericc\dx12-engine\engine\camera.cpp(58): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\ericc\dx12-engine\engine\camera.cpp(59): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\ericc\dx12-engine\engine\camera.cpp(64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
-Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-  Engine.vcxproj -> C:\Users\ericc\DX12-Engine\x64\Debug\Engine.exe

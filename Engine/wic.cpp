@@ -1,12 +1,12 @@
 #pragma once
 
-#include <wincodec.h>
-#include "d3dx12.h"
+#include "wic.h"
 
-class wic {
+
+namespace DX12Engine {
 
 	// get the dxgi format equivilent of a wic format
-	static DXGI_FORMAT GetDXGIFormatFromWICFormat(WICPixelFormatGUID& wicFormatGUID)
+	DXGI_FORMAT GetDXGIFormatFromWICFormat(WICPixelFormatGUID& wicFormatGUID)
 	{
 		if (wicFormatGUID == GUID_WICPixelFormat128bppRGBAFloat) return DXGI_FORMAT_R32G32B32A32_FLOAT;
 		else if (wicFormatGUID == GUID_WICPixelFormat64bppRGBAHalf) return DXGI_FORMAT_R16G16B16A16_FLOAT;
@@ -29,7 +29,7 @@ class wic {
 	}
 
 	// get a dxgi compatible wic format from another wic format
-	static WICPixelFormatGUID GetConvertToWICFormat(WICPixelFormatGUID& wicFormatGUID)
+	WICPixelFormatGUID GetConvertToWICFormat(WICPixelFormatGUID& wicFormatGUID)
 	{
 		if (wicFormatGUID == GUID_WICPixelFormatBlackWhite) return GUID_WICPixelFormat8bppGray;
 		else if (wicFormatGUID == GUID_WICPixelFormat1bppIndexed) return GUID_WICPixelFormat32bppRGBA;
@@ -78,7 +78,7 @@ class wic {
 	}
 
 	// get the number of bits per pixel for a dxgi format
-	static int GetDXGIFormatBitsPerPixel(DXGI_FORMAT& dxgiFormat)
+	int GetDXGIFormatBitsPerPixel(DXGI_FORMAT& dxgiFormat)
 	{
 		if (dxgiFormat == DXGI_FORMAT_R32G32B32A32_FLOAT) return 128;
 		else if (dxgiFormat == DXGI_FORMAT_R16G16B16A16_FLOAT) return 64;
@@ -99,7 +99,7 @@ class wic {
 	}
 
 	// load and decode image from file
-public:int LoadImageDataFromFile(BYTE** imageData, D3D12_RESOURCE_DESC& resourceDescription, LPCWSTR filename, int &bytesPerRow)
+	int LoadImageDataFromFile(BYTE** imageData, D3D12_RESOURCE_DESC& resourceDescription, LPCWSTR filename, int &bytesPerRow)
 	{
 		HRESULT hr;
 
@@ -225,4 +225,4 @@ public:int LoadImageDataFromFile(BYTE** imageData, D3D12_RESOURCE_DESC& resource
 		return imageSize;
 	}
 
-};
+}
